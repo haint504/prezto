@@ -28,6 +28,8 @@ zstyle ':prezto:*:*' color 'yes'
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
+  'osx' \
+  'homebrew' \
   'terminal' \
   'editor' \
   'history' \
@@ -35,15 +37,16 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'homebrew' \
   'autosuggestions' \
-  'osx' \
-  'git' \
+  'alias-tips' \
+  'fasd' \
+  'docker' \
+  'forgit' \
   'ssh' \
   'syntax-highlighting' \
   'history-substring-search' \
   'prompt'
-  
+
 
 #
 # Autosuggestions
