@@ -31,3 +31,9 @@
 [submodule "modules/prompt/external/powerlevel10k"]
 	path = modules/prompt/external/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k.git
+[submodule "contrib/alias-tips"]
+	path = contrib/alias-tips
+	url = https://github.com/djui/alias-tips
+[submodule "contrib/forgit"]
+	path = contrib/forgit
+	url = https://github.com/wfxr/forgit

@@ -41,6 +41,7 @@ zstyle ':prezto:load' pmodule \
   'alias-tips' \
   'fasd' \
   'docker' \
+  'git' \
   'forgit' \
   'ssh' \
   'syntax-highlighting' \
