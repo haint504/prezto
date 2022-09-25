@@ -132,15 +132,6 @@ bindkey -M vicmd "q" push-line
 # it's like, space AND completion.  Gnarlbot.
 bindkey -M viins ' ' magic-space
 
-# Hai Nguyen - custom definition
-function ssh_tunnel() {
-    if lsof -i :$1 > /dev/null; then
-       #echo "$1 running"
-    else
-       #echo "Try SSH tunnelling to $1"
-       ssh -f -N -L "$1":localhost:"$1" nguynha@nguynha.aka.corp.amazon.com 2> /dev/null
-    fi
-}
 alias ls='lsd'
 alias l='ls -l'
 alias la='ls -a'
